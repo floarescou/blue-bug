@@ -271,6 +271,23 @@ li.content__item + li.content__item {
 
 /* .. <!--секция "почему ко мне обращаются"-->*/
 
+/*<!--подвал сайта-->*/
+footer {
+    padding: 50px 0;
+    background-color: var(--ui-darkblue-color);
+    color: var(--light-text-color);
+    font-size: 13px;
+}
+
+.footer__credits {
+    opacity: 0.55;
+}
+.footer__agreement {
+    opacity: 0.9;
+    border-bottom: 1px dotted;
+}
+/* .. <!--подвал сайта-->*/
+
 
 
 
