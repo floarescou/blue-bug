@@ -8,6 +8,7 @@
     --ui-darkblue-color: #2f383b;
     --ui-blue-color: #4e8598;
 }
+
 /* .. переменные*/
 
 /*общие настройки*/
@@ -21,11 +22,25 @@ body {
     font-family: var(--main-font);
     font-size: 15px;
     font-weight: normal;
+    color: var(--main-text-color);
 }
+
 h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
 .btn {
     font-size: 13px;
     font-weight: bold;
@@ -42,6 +57,13 @@ h1, h2, h3 {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* .. общие настройки*/
 
 /*<!--первый экран-->*/
@@ -54,6 +76,7 @@ header {
     position: relative;
 }
 
+/* <!--заголовок-->*/
 .offer {
     position: absolute;
     top: 50%;
@@ -67,16 +90,115 @@ header {
     line-height: 1.407;
     margin-bottom: 29px;
 }
+
 .offer__btn {
     border-color: var(--light-text-color);
 }
+
+/* .. <!--заголовок-->*/
+
+/*<!--стрелка вниз-->*/
 .arrow-down {
     position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* .. <!--стрелка вниз-->*/
 /*<!-- .. первый экран-->*/
+
+/*<!--секция "обо мне"-->*/
+.about {
+    padding: 80px 0 76px 0;
+}
+
+.about__title {
+    margin-bottom: 89px;
+}
+
+.content__wrapper {
+    align-items: flex-start;
+    column-gap: 30px;
+}
+
+.content__block_desc {
+    max-width: 395px;
+}
+.content__block_list {
+    max-width: 440px;
+}
+.content__title {
+    margin-bottom: 30px;
+}
+
+.content__title:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 72px;
+    background-color: var(--ui-blue-color);
+}
+
+p.content__text {
+    line-height: 1.6;
+    letter-spacing: 0.012em;
+}
+
+p.content__text + p.content__text {
+    margin-top: 35px;
+}
+
+.content__list {
+    margin-left: -3px;
+}
+
+li.content__item {
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+li.content__item + li.content__item {
+    margin-top: 30px;
+}
+
+.content__item:first-child:before {
+    content: '';
+    width: 39px;
+    height: 39px;
+    background: url(../img/bug.png) no-repeat center / contain;
+}
+.content__item:nth-child(2):before {
+    content: '';
+    width: 39px;
+    height: 39px;
+    background: url(../img/bell.png) no-repeat center / contain;
+}
+.content__item:nth-child(3):before {
+    content: '';
+    width: 39px;
+    height: 39px;
+    background: url(../img/storm.png) no-repeat center / contain;
+}
+.content__item:last-child:before {
+    content: '';
+    width: 39px;
+    height: 39px;
+    background: url(../img/camera.png) no-repeat center / contain;
+}
+
+.content__point {
+    font-size: 16px;
+    color: var(--ui-blue-color);
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.content__remark {
+    opacity: 0.48;
+}
+
+/* .. <!--секция "обо мне"-->*/
 
 
 
