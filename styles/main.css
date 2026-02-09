@@ -7,6 +7,8 @@
 
     --ui-darkblue-color: #2f383b;
     --ui-blue-color: #4e8598;
+
+    --hover-transition: all 0.3s ease;
 }
 
 /* .. переменные*/
@@ -93,6 +95,12 @@ header {
 
 .offer__btn {
     border-color: var(--light-text-color);
+    transition: var(--hover-transition);
+}
+
+.offer__btn:hover {
+background-color: var(--light-text-color);
+    color: var(--ui-darkblue-color);
 }
 
 /* .. <!--заголовок-->*/
@@ -233,6 +241,13 @@ li.content__item + li.content__item {
     text-align: center;
     border: 1px solid var(--ui-darkblue-color);
     border-radius: 50%;
+
+    transition: var(--hover-transition);
+}
+
+.adv__digit:hover {
+    background-color: var(--ui-darkblue-color);
+    color: var(--light-text-color);
 }
 
 .adv__desc {
@@ -267,6 +282,11 @@ li.content__item + li.content__item {
 .action__btn {
     display: block;margin: 0 auto;
     border-color: var(--ui-darkblue-color);
+    transition: var(--hover-transition);
+}
+.action__btn:hover {
+    color: var(--light-text-color);
+    background-color: var(--ui-darkblue-color);
 }
 
 /* .. <!--секция "почему ко мне обращаются"-->*/
@@ -285,6 +305,11 @@ footer {
 .footer__agreement {
     opacity: 0.9;
     border-bottom: 1px dotted;
+    transition: all 0.1s ease;
+}
+
+.footer__agreement:hover {
+    opacity: 1;
 }
 /* .. <!--подвал сайта-->*/
 
