@@ -1,0 +1,44 @@
+/*переменные*/
+:root {
+    --main-font: "Tahoma", sans-serif;
+
+    --main-text-color: #2f383b;
+    --light-text-color: #fff;
+
+    --ui-darkblue-color: #2f383b;
+    --ui-blue-color: #4e8598;
+}
+/* .. переменные*/
+
+/*общие настройки*/
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: normal;
+}
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 21px 30px;
+    border: 1px solid transparent;
+    width: 216px;
+    height: 53px;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 980px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+/* .. общие настройки*/
