@@ -125,9 +125,11 @@ header {
 .content__block_desc {
     max-width: 395px;
 }
+
 .content__block_list {
     max-width: 440px;
 }
+
 .content__title {
     margin-bottom: 30px;
 }
@@ -140,6 +142,7 @@ header {
     background-color: var(--ui-blue-color);
 }
 
+/*<!--блок "о миссии"-->*/
 p.content__text {
     line-height: 1.6;
     letter-spacing: 0.012em;
@@ -149,6 +152,8 @@ p.content__text + p.content__text {
     margin-top: 35px;
 }
 
+/* .. <!--блок "о миссии"-->*/
+/*<!--блок "о заслугах"-->*/
 .content__list {
     margin-left: -3px;
 }
@@ -168,18 +173,21 @@ li.content__item + li.content__item {
     height: 39px;
     background: url(../img/bug.png) no-repeat center / contain;
 }
+
 .content__item:nth-child(2):before {
     content: '';
     width: 39px;
     height: 39px;
     background: url(../img/bell.png) no-repeat center / contain;
 }
+
 .content__item:nth-child(3):before {
     content: '';
     width: 39px;
     height: 39px;
     background: url(../img/storm.png) no-repeat center / contain;
 }
+
 .content__item:last-child:before {
     content: '';
     width: 39px;
@@ -198,7 +206,70 @@ li.content__item + li.content__item {
     opacity: 0.48;
 }
 
+/* .. <!--блок "о заслугах"-->*/
+
 /* .. <!--секция "обо мне"-->*/
+
+/*<!--секция "почему ко мне обращаются"-->*/
+.advantages {
+    padding: 77px 0 75px 0;
+}
+
+.advantages__title {
+    margin-bottom: 68px;
+}
+
+.adv__list {
+    margin-bottom: 64px;
+}
+
+.adv__digit {
+    line-height: 73px;
+    margin: 0 auto 18px auto;
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid var(--ui-darkblue-color);
+    border-radius: 50%;
+}
+
+.adv__desc {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.action {
+    max-width: 405px;
+    margin: 0 auto;
+}
+
+.action__text {
+    font-size: 14px;
+    line-height: 1.643;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.action__text span {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 181px;
+    display: block;
+    margin: 0 auto 20px auto;
+    line-height: 1;
+}
+
+.action__btn {
+    display: block;margin: 0 auto;
+    border-color: var(--ui-darkblue-color);
+}
+
+/* .. <!--секция "почему ко мне обращаются"-->*/
 
 
 
