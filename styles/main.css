@@ -247,6 +247,7 @@ li.content__item + li.content__item {
 
 .adv__list {
     margin-bottom: 64px;
+    column-gap: 30px;
 }
 
 .adv__digit {
@@ -315,6 +316,10 @@ footer {
     background-color: var(--ui-darkblue-color);
     color: var(--light-text-color);
     font-size: 13px;
+}
+
+.footer-wrapper {
+    column-gap: 30px;
 }
 
 .footer__credits {
