@@ -111,6 +111,24 @@ background-color: var(--light-text-color);
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
+    animation-duration: 1.75s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: slideUp;
+}
+
+@keyframes slideUp {
+    0% {
+        bottom: 5%;
+    }
+
+    50% {
+        bottom: 7%;
+    }
+
+    100% {
+        bottom: 5%;
+    }
 }
 
 /* .. <!--стрелка вниз-->*/
