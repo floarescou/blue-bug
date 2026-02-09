@@ -29,11 +29,12 @@ h1, h2, h3 {
 .btn {
     font-size: 13px;
     font-weight: bold;
-    padding: 21px 30px;
+    padding: 18px;
     border: 1px solid transparent;
     width: 216px;
     height: 53px;
     text-transform: uppercase;
+    border-radius: 28px;
 }
 
 .container {
@@ -44,4 +45,44 @@ h1, h2, h3 {
 /* .. общие настройки*/
 
 /*<!--первый экран-->*/
+header {
+    height: 100vh;
+    padding: 54px 0 58px 0;
+    background-color: var(--ui-blue-color);
+    text-align: center;
+    color: var(--light-text-color);
+    position: relative;
+}
+
+.offer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+}
+
+.offer__title {
+    font-size: 27px;
+    line-height: 1.407;
+    margin-bottom: 29px;
+}
+.offer__btn {
+    border-color: var(--light-text-color);
+}
+.arrow-down {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /*<!-- .. первый экран-->*/
+
+
+
+
+
+
+
+
+
