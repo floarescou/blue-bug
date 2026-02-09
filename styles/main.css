@@ -22,7 +22,7 @@ body {
     font-size: 15px;
     font-weight: normal;
 }
-h1, h2 {
+h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -42,3 +42,6 @@ h1, h2 {
     margin: 0 auto;
 }
 /* .. общие настройки*/
+
+/*<!--первый экран-->*/
+/*<!-- .. первый экран-->*/
